@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    text-align: -webkit-center;
+    text-align: center;
     font-family: outfit;
     display: flex;
     flex-direction: column;
@@ -53,9 +53,9 @@ p {
     height: fit-content;
     align-items: center;
 }
-@media (min-width: 1440px) {
+@media (min-width: 90rem) {
     .card {
-        width: clamp(320px, 20vw, 30vw);
+        width: clamp(20rem, 20vw, 30vw);
     }
 }
 
